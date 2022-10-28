@@ -19,8 +19,8 @@
 /* Colors #f85a40 */
 :root {
   --color-default: #222222;
-  --color-primary: #008374;
-  --color-secondary: #0FFF50;
+  --color-primary: #2779a7;
+  --color-secondary: #49c5b6;
 }
 
 /* Smooth scroll behavior */
@@ -70,6 +70,11 @@ section {
 .section-header {
   text-align: center;
   padding-bottom: 60px;
+}
+
+.serv .section-header {
+  text-align: center;
+  padding-bottom: 0px;
 }
 
 .section-header h2 {
@@ -248,7 +253,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  background: #236C96;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -620,7 +625,12 @@ section {
   font-weight: 700;
   font-size: 28px;
   margin-bottom: 20px;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
+}
+
+.about p {
+  font-size: 15px;
+  font-family: var(--font-primary);
 }
 
 .about .call-us {
@@ -653,6 +663,8 @@ section {
 .about .content ul li {
   padding: 0 0 10px 30px;
   position: relative;
+  font-size: 15px;
+  font-family: var(--font-primary);
 }
 
 .about .content ul i {
@@ -2008,7 +2020,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #008d7d;
+  background: #3C86AF;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -2040,7 +2052,7 @@ section {
 }
 
 .hero .icon-box:hover {
-  background: #009786;
+  background: #2779a7;
 }
 
 .hero .icon-box:hover .title a,
