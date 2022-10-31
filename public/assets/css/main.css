@@ -20,9 +20,11 @@
 :root {
   --color-default: #222222;
   --color-primary: #FFFFFF;
-  --color-secondary: #1439ff;
-  --color-primary-font: #0F52BA;
-  --color-secondary-font: #2779a7;
+  --color-primary-transparent: rgba(39, 121, 167, 0.7);
+  --color-secondary: #49c5b6;
+  --color-secondary-transparent: rgba(73, 197, 182, 0.7);
+  --color-primary-font: #000000;
+  --color-secondary-font: #49c5b6;
 }
 
 /* Smooth scroll behavior */
@@ -313,7 +315,7 @@ section {
   transition: all 0.5s;
   z-index: 997;
   height: 90px;
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-transparent);
 }
 
 .header.sticked {
@@ -1944,7 +1946,7 @@ section {
 .hero {
   width: 100%;
   position: relative;
-  background: var(--color-primary);
+  background: var(--color-secondary-transparent);
   padding: 60px 0 0 0;
 }
 
@@ -2085,7 +2087,7 @@ section {
   padding: 2%;
   position: relative;
   overflow: hidden;
-  background: var(--color-primary);
+  background: var(--color-secondary-transparent);
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 10%;
