@@ -330,6 +330,7 @@ section {
 .header .logo img {
   max-height: 40px;
   margin-right: 6px;
+  padding: 3%;
 }
 
 .header .logo h1 {
