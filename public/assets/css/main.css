@@ -20,10 +20,10 @@
 :root {
   --color-default: #222222;
   --color-primary: #FFFFFF;
-  --color-primary-transparent: rgba(39, 121, 167, 0.7);
+  --color-primary-transparent: rgba(39, 121, 167, 0.95);
   --color-secondary: #49c5b6;
-  --color-secondary-transparent: rgba(73, 197, 182, 0.7);
-  --color-primary-font: #000000;
+  --color-secondary-transparent: rgba(0, 0, 0, 0.7);
+  --color-primary-font: #FFFFFF;
   --color-secondary-font: #49c5b6;
 }
 
@@ -1946,8 +1946,14 @@ section {
 .hero {
   width: 100%;
   position: relative;
-  background: var(--color-secondary-transparent);
+  /*background: var(--color-secondary-transparent);*/
   padding: 60px 0 0 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg_img_5.webp") center center;
+  background-size: cover;
+}
+
+.tp_layer {
+  opacity: 0.5;
 }
 
 @media (min-width: 1365px) {
@@ -2087,8 +2093,9 @@ section {
   padding: 2%;
   position: relative;
   overflow: hidden;
-  background: var(--color-secondary-transparent);
+  background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
+ /* border: 0.5px solid #2779a7; */
   transition: all 0.3s ease-in-out;
   border-radius: 10%;
   z-index: 1;
