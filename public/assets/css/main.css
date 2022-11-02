@@ -1078,13 +1078,16 @@ section {
 }
 
 .serv .sub_head {
-    color: var(--color-primary);
-    font-weight: 700;
+   font-weight: 500;
+}
+
+.serv label {
+   font-weight: 500;
 }
 
 .serv strong {
     color: var(--color-primary);
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .serv .btn_service {
