@@ -1949,7 +1949,7 @@ section {
   position: relative;
   /*background: var(--color-secondary-transparent);*/
   padding: 60px 0 0 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/bg_img_6.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/bg_img_6.jpg") center center;
   background-size: cover;
 }
 
@@ -2095,7 +2095,7 @@ section {
   padding: 2%;
   position: relative;
   overflow: hidden;
-  background: rgba(39, 121, 167, 0.05);
+  background: rgba(39, 121, 167, 0.09);
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
  /* border: 0.5px solid #2779a7; */
   transition: all 0.3s ease-in-out;
