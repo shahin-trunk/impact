@@ -76,11 +76,6 @@ section {
   padding-bottom: 60px;
 }
 
-.serv .section-header {
-  text-align: center;
-  padding-bottom: 0px;
-}
-
 .section-header h2 {
   font-size: 32px;
   font-weight: 600;
@@ -1075,6 +1070,50 @@ section {
 
 .services .service-item:hover h3 {
   border-color: var(--color-primary);
+}
+
+.serv .section-header {
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+.serv .sub_head {
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+.serv strong {
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+.serv .btn_service {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 40px;
+  margin: 3%;
+  border-radius: 50px;
+  transition: 0.3s;
+  color: var(--color-primary-font);
+  background: var(--color-primary);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  border: 0;
+  z-index: 1;
+}
+
+.serv .secondary {
+    background: var(--color-secondary);
+}
+
+.serv .btn_service:hover {
+    background: var(--color-secondary);
+}
+
+.serv .secondary:hover {
+    background: var(--color-primary);
 }
 
 /*--------------------------------------------------------------
